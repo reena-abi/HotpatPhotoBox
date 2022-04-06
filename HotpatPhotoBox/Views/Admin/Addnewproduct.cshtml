@@ -1,0 +1,83 @@
+﻿
+@{
+    ViewBag.Title = "Addnewproduct";
+    Layout = "~/Views/Shared/Admin_LayoutPage.cshtml";
+}
+
+<section>
+    <div class="container">
+        <div class="row">
+            <div class="col-12">
+                <h1 class="admin-heading">Add New product</h1>
+            </div>
+            <div class="col-lg-3">
+                <div class="side-navigation">
+                    <ul>
+                        <li><a href="">Add new product</a> </li>
+                        <li class="active"><a href="">Product lists</a> </li>
+                        <li><a href="">Customer info</a> </li>
+                        <li><a href="">Addresses</a> </li>
+                        <li><a href="">Orders</a> </li>
+                        <li><a href="">Change password</a> </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="col-lg-9 new-product">
+                <div class="row">
+                    <div class="col-lg-12 d-flex">
+                        <label class="" for="">Category*</label>
+                        <select name="pets" id="pet-select">
+                            <option value="">Select</option>
+                            <option value="dog"></option>
+                            <option value="cat"></option>
+                            <option value="hamster"></option>
+                            <option value="parrot"></option>
+                            <option value="spider"></option>
+                            <option value="goldfish"></option>
+                        </select>
+                    </div>
+                    <div class="col-lg-12 d-flex">
+
+                        <label class="" for="name">Title</label>
+                        <input class="custom-subject-input" type="text" name="yourName"
+                               placeholder="Product Title*">
+
+                    </div>
+                    <div class="col-lg-12 d-flex">
+                        <label class="" for="">Packaged*</label>
+                        <select name="pets" id="pet-select">
+                            <option value="">Select</option>
+                            <option value="dog"></option>
+                            <option value="cat"></option>
+                            <option value="hamster"></option>
+                            <option value="parrot"></option>
+                            <option value="spider"></option>
+                            <option value="goldfish"></option>
+                        </select>
+                    </div>
+
+                    <div class="col-lg-12 d-flex">
+                        <label class="">Description*</label>
+                        <textarea class="summernote"></textarea>
+                    </div>
+                    <div class="col-lg-6 d-flex">
+                        <label class="" for="name">Stock/Quantity</label>
+                        <input class="custom-subject-input" type="text" name="yourName" placeholder="Enter number">
+                    </div>
+                    <div class="col-lg-6 d-flex">
+                        <label class="" for="name">Price</label>
+                        <input class="custom-subject-input" type="text" name="yourName"
+                               placeholder="Enter price in AUD">
+                    </div>
+                    <div class="col-lg-12">
+                        <a href="" class="btn-admin">Save</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+
+

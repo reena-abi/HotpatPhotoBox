@@ -1,0 +1,139 @@
+﻿
+@{
+    ViewBag.Title = "Orders";
+    Layout = "~/Views/Shared/Admin_LayoutPage.cshtml";
+}
+
+<section>
+    <div class="container">
+        <div class="row">
+            <div class="col-12">
+                <h1 class="admin-heading">Add New product</h1>
+            </div>
+            <div class="col-lg-3">
+                <div class="side-navigation">
+                    <ul>
+                        <li><a href="">Add new product</a> </li>
+                        <li class="active"><a href="">Product lists</a> </li>
+                        <li><a href="">Customer info</a> </li>
+                        <li><a href="">Addresses</a> </li>
+                        <li><a href="">Orders</a> </li>
+                        <li><a href="">Change password</a> </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="col-lg-9">
+                <div class="search-category">
+                    <input type="text" placeholder="Search.." id="myInput" onkeyup="filterFunction()">
+                    <div class="dropdown">
+                        <button onclick="myFunction()" class="dropbtn">All Caregories</button>
+                        <div id="myDropdown" class="dropdown-content">
+                            <a href="#about">About</a>
+                            <a href="#base">Base</a>
+                            <a href="#blog">Blog</a>
+                            <a href="#contact">Contact</a>
+                            <a href="#custom">Custom</a>
+                            <a href="#support">Support</a>
+                            <a href="#tools">Tools</a>
+                        </div>
+                    </div>
+                    <button class="search-btn">Search</button>
+                </div>
+                <div class="table-responsive">
+                    <table class="table product-list-table">
+                        <thead>
+                            <tr>
+                                <th scope="col">Order number</th>
+                                <th scope="col">Date</th>
+                                <th scope="col">Amount</th>
+                                <th scope="col">Status</th>
+                                <th scope="col">Buyer</th>
+                                <th scope="col">Action</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>HW-22122</td>
+                                <td>28-02-2022</td>
+                                <td>$100</td>
+                                <td>Delivered</td>
+                                <td>Buyer profile link</td>
+                                <td>
+                                    <a href=""><i class="fas fa-comment-alt-lines"></i></a>
+                                    <a href=""><i class="fas fa-eye"></i></a>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>HW-22122</td>
+                                <td>28-02-2022</td>
+                                <td>$100</td>
+                                <td>Delivered</td>
+                                <td>Buyer profile link</td>
+                                <td>
+                                    <a href=""><i class="fas fa-comment-alt-lines"></i></a>
+                                    <a href=""><i class="fas fa-eye"></i></a>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>HW-22122</td>
+                                <td>28-02-2022</td>
+                                <td>$100</td>
+                                <td>Delivered</td>
+                                <td>Buyer profile link</td>
+                                <td>
+                                    <a href=""><i class="fas fa-comment-alt-lines"></i></a>
+                                    <a href=""><i class="fas fa-eye"></i></a>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>HW-22122</td>
+                                <td>28-02-2022</td>
+                                <td>$100</td>
+                                <td>Delivered</td>
+                                <td>Buyer profile link</td>
+                                <td>
+                                    <a href=""><i class="fas fa-comment-alt-lines"></i></a>
+                                    <a href=""><i class="fas fa-eye"></i></a>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>HW-22122</td>
+                                <td>28-02-2022</td>
+                                <td>$100</td>
+                                <td>Delivered</td>
+                                <td>Buyer profile link</td>
+                                <td>
+                                    <a href=""><i class="fas fa-comment-alt-lines"></i></a>
+                                    <a href=""><i class="fas fa-eye"></i></a>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>HW-22122</td>
+                                <td>28-02-2022</td>
+                                <td>$100</td>
+                                <td>Delivered</td>
+                                <td>Buyer profile link</td>
+                                <td>
+                                    <a href=""><i class="fas fa-comment-alt-lines"></i></a>
+                                    <a href=""><i class="fas fa-eye"></i></a>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>HW-22122</td>
+                                <td>28-02-2022</td>
+                                <td>$100</td>
+                                <td>Delivered</td>
+                                <td>Buyer profile link</td>
+                                <td>
+                                    <a href=""><i class="fas fa-comment-alt-lines"></i></a>
+                                    <a href=""><i class="fas fa-eye"></i></a>
+                                </td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+

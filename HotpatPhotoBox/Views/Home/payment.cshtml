@@ -1,0 +1,90 @@
+﻿
+@{
+    ViewBag.Title = "payment";
+    Layout = "~/Views/Shared/Web_LayoutPage.cshtml";
+}
+
+
+<section class="payment-details">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-6">
+                <h5>Shipping Address</h5>
+                <form action="">
+                    <label for="cars">Select an address</label>
+                    <select name="cars" id="cars">
+                        <option value="volvo">Pre saved addresses on your account</option>
+                        <option value="saab">category 1</option>
+                        <option value="opel">category 1</option>
+                        <option value="audi">category 1</option>
+                    </select>
+                </form>
+                <h5>Payment mothod</h5>
+                <ul class="d-flex">
+                    <li>
+                        <img src="images/visa.png" alt="">
+                    </li>
+                    <li><img src="images/master-card.png" alt=""></li>
+                    <li><img src="images/Google_Pay_(GPay)_Logo.png" alt=""></li>
+                    <li><img src="images/PayPal.png" alt=""></li>
+                </ul>
+                <a href="" class="btn-1">Proceed to Payment</a>
+            </div>
+            <div class="col-lg-6">
+                <h5>Your Order</h5>
+                <div class="row">
+                    <div class="col-lg-6 left-details">
+                        <p class="subtotal"> Subtotal</p>
+                        <p class="shipping">Shipping</p>
+                        <p class="total">Total</p>
+                    </div>
+                    <div class="col-lg-6 right-details">
+                        <p class="price-one">$ 100</p>
+                        <form>
+                            <div class="form-group">
+                                <input type="checkbox" id="check">
+                                <label for="check">Create My Account</label>
+                            </div>
+                            <div class="form-group">
+                                <input type="checkbox" id="check-two">
+                                <label for="check-two">Create My Account</label>
+                            </div>
+                        </form>
+
+                        <p class="price-final">$159.96</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</section>
+
+<!-- subscribe-section-start -->
+<section class="subscribe">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-6 ">
+                <h1>Subscribe Now !</h1>
+                <p>
+                    Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt
+                    ut
+                    laoreet dolore
+                </p>
+            </div>
+            <div class="col-md-6 subscribe-right-col">
+                <div class="input-group  my-auto">
+                    <input type="search" placeholder="Text Field" aria-describedby="button-addon5"
+                           class="form-control">
+                    <div class="input-group-append">
+                        <button id="button-addon5" type="submit" class="btn btn-primary">
+                            Subscribe
+                        </button>
+                    </div>
+                </div>
+                <p>By subscribing you agree with our <a href="#" class="terms">Terms and Conditions.</a> </p>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- subscribe-section-end -->

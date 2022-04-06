@@ -1,0 +1,57 @@
+﻿
+@{
+    ViewBag.Title = "Login";
+    Layout = "~/Views/Shared/Admin_LayoutPage.cshtml";
+}
+
+<section class="register">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-12 register-header-image">
+                <img src="../admin-panel/admin-image/hotpatphotobox-01.png" alt="">
+            </div>
+            <div class="form-section">
+                <div class="forms">
+                    <div class="form login">
+                        <span class="title">Welcome back! Please login to your account.</span>
+                        <form action="#">
+
+                            <form action="#">
+                                <div class="row">
+
+                                    <div class=" col-lg-12 input-field">
+                                        <input type="text" placeholder="Email" required>
+                                    </div>
+                                    <div class="col-lg-12 input-field">
+                                        <input type="password" class="password" id="password" placeholder=" password"
+                                               required>
+
+                                        <i toggle="#password-field" class="toggle-password fa fa-fw fa-eye-slash" id="eye"></i>
+                                    </div>
+                                </div>
+
+                                <div class="checkbox-text">
+                                    <div class="checkbox-content">
+                                        <input type="checkbox" id="logCheck">
+                                        <label for="logCheck" class="text-forgot-password-checkbox">Remember me</label>
+                                    </div>
+
+                                    <a href="#" class="text-forgot-password-checkbox">Forgot password?</a>
+                                </div>
+
+                                <div class="input-field button">
+                                    <input type="button" value="Login Now">
+                                </div>
+                            </form>
+
+                            <div class="login-signup">
+                                <span class="text">
+                                    Registering to this website, you accept our <a href="#" class="text signup-link">Signup now</a> and our <a href="#" class="text signup-link">privacy policy</a>
+                                </span>
+                            </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
